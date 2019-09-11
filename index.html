@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/nanum-gothic.css" rel="stylesheet">
+  <!-- <link href="css/nanum-gothic.css" rel="stylesheet"> -->
   <link href="css/thisweb.css" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="scripts/thisweb.js"></script>
@@ -19,27 +19,37 @@
 </head>
 
 <body>
-  <div class="container">
+  <header>
 
     <nav class="blue darken-4">
-      <div class="nav-wrapper">
-        <a href="#!" class="brand-logo">Logo</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="sass.html">Sass</a></li>
-          <li><a href="badges.html">Components</a></li>
-          <li><a href="collapsible.html">Javascript</a></li>
-          <li><a href="mobile.html">Mobile</a></li>
-        </ul>
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">Logo</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="sass.html">자바</a></li>
+            <li><a href="badges.html">스프링</a></li>
+            <li><a href="collapsible.html">HTML &amp; CSS</a></li>
+            <li><a href="mobile.html">모바일</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
+  </header>
 
-    <ul class="sidenav" id="mobile-demo">
-      <li><a href="sass.html">Sass</a></li>
-      <li><a href="badges.html">Components</a></li>
-      <li><a href="collapsible.html">Javascript</a></li>
-      <li><a href="mobile.html">Mobile</a></li>
-    </ul>
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="sass.html">자바</a></li>
+    <li><a href="badges.html">스프링 프레임워크</a></li>
+    <li><a href="collapsible.html">HTML &amp; CSS</a></li>
+    <li><a href="mobile.html">모바일</a></li>
+  </ul>
+
+  <div class="carousel">
+    <a class="carousel-item" href="#one!"><img src="img/1.jfif"></a>
+    <a class="carousel-item" href="#two!"><img src="img/2.jfif"></a>
+    <a class="carousel-item" href="#three!"><img src="img/3.jfif"></a>
+    <a class="carousel-item" href="#four!"><img src="img/4.jfif"></a>
+    <a class="carousel-item" href="#five!"><img src="img/5.jfif"></a>
   </div>
 
 </body>
