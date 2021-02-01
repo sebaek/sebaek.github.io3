@@ -1,57 +1,94 @@
 <!DOCTYPE html>
-<html lang="kr">
+<html>
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!-- <link href="css/nanum-gothic.css" rel="stylesheet"> -->
-  <link href="css/thisweb.css" rel="stylesheet">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script src="scripts/thisweb.js"></script>
-
-  <style>
-
-  </style>
-  <title>Seung-Eun</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 
 <body>
-  <header>
+  <div class="jumbotron">
+    <h1 class="display-4">JAVA WEB PROGRAMMER</h1>
+    <p class="lead">
+      .................
+    </p>
+  </div>  
 
-    <nav class="blue darken-4">
-      <div class="container">
-        <div class="nav-wrapper">
-          <a href="#!" class="brand-logo">Logo</a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="sass.html">자바</a></li>
-            <li><a href="badges.html">스프링</a></li>
-            <li><a href="collapsible.html">HTML &amp; CSS</a></li>
-            <li><a href="mobile.html">모바일</a></li>
-          </ul>
+  <div class="container-fluid">
+    <div class="row row-cols-1 row-cols-md-3">
+      <div class="col mb-4">
+        <div class="card">
+          <div class="card-header">
+            Servlet/JSP project
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">
+              Simple Board
+            </h5>
+            <p class="card-text">
+              게시판, 회원 테이블 CRUD 
+            </p>
+            <a href="http://193.122.106.248:8080/myboard/" class="btn btn-primary">
+              보러가기
+            </a>
+            <a href="https://github.com/sebaek/jsp-board20201208" class="btn btn-secondary">
+              코드보기
+            </a>
+          </div>
         </div>
       </div>
-    </nav>
-  </header>
 
-  <ul class="sidenav" id="mobile-demo">
-    <li><a href="sass.html">자바</a></li>
-    <li><a href="badges.html">스프링 프레임워크</a></li>
-    <li><a href="collapsible.html">HTML &amp; CSS</a></li>
-    <li><a href="mobile.html">모바일</a></li>
-  </ul>
+      <div class="col mb-4">
+        <div class="card">
+          <div class="card-header">
+            Spring Web MVC Project
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">
+              게시판 구현
+            </h5>
+            <p class="card-text">
+              게시판, 댓글 CRUD
+            </p>
+            <a href="http://193.122.106.248:8080/ex02/board/list" class="btn btn-primary">
+              보러가기
+            </a>
+            <a href="https://github.com/sebaek/spring-ex02-20210112" class="btn btn-secondary">
+              코드보기
+            </a>
+          </div>
+        </div>
+      </div>
 
-  <div class="carousel">
-    <a class="carousel-item" href="#one!"><img src="img/1.jfif"></a>
-    <a class="carousel-item" href="#two!"><img src="img/2.jfif"></a>
-    <a class="carousel-item" href="#three!"><img src="img/3.jfif"></a>
-    <a class="carousel-item" href="#four!"><img src="img/4.jfif"></a>
-    <a class="carousel-item" href="#five!"><img src="img/5.jfif"></a>
+      <div class="col mb-4">
+        <div class="card">
+          <div class="card-header">
+            Spring Web MVC Project
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">
+              게시판 구현
+            </h5>
+            <p class="card-text">
+              게시판, 댓글 CRUD
+            </p>
+            <a href="http://193.122.106.248:8080/ex02/board/list" class="btn btn-primary">
+              보러가기
+            </a>
+            <a href="https://github.com/sebaek/spring-ex02-20210112" class="btn btn-secondary">
+              코드보기
+            </a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
   </div>
-
 </body>
 
 </html>
